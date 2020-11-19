@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+	start := time.Now()
 	doneChan := make(chan bool)
 	params := make(chan int, 5)
 	params <- 1
@@ -26,7 +27,8 @@ func main() {
 
 	select {
 	case done := <-doneChan:
-		fmt.Println("DONE", done)
+		elapsed := time.Since(start)
+		fmt.Println("DONE", done, elapsed)
 	}
 }
 
@@ -110,7 +112,7 @@ step1(5)
 step3(step2(step1(4)))
 step2(step1(5))
 step3(step2(step1(5)))
-DONE true
+DONE true 7s
 
 Process finished with exit code 0
 ```
