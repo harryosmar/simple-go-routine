@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	start := time.Now()
 	doneChan := make(chan bool)
 	params := make(chan int, 5)
 	params <- 1
@@ -23,7 +24,8 @@ func main() {
 
 	select {
 	case done := <-doneChan:
-		fmt.Println("DONE", done)
+		elapsed := time.Since(start)
+		fmt.Println("DONE", done, elapsed)
 	}
 }
 
