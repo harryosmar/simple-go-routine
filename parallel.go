@@ -15,19 +15,19 @@ func sum(num int, c chan<- int, wg *sync.WaitGroup) {
 func main() {
 	start := time.Now()
 	c := make(chan int)
-	wgCond := sync.WaitGroup{}
+	wg := sync.WaitGroup{}
 	
-	wgCond.Add(1)
-	go sum(1, c, &wgCond)
-	wgCond.Add(1)
-	go sum(2, c, &wgCond)
-	wgCond.Add(1)
-	go sum(3, c, &wgCond)
-	wgCond.Add(1)
-	go sum(4, c, &wgCond)
+	wg.Add(1)
+	go sum(1, c, &wg)
+	wg.Add(1)
+	go sum(2, c, &wg)
+	wg.Add(1)
+	go sum(3, c, &wg)
+	wg.Add(1)
+	go sum(4, c, &wg)
 	
 	go func() {
-		wgCond.Wait()
+		wg.Wait()
 		close(c)
 	}()
 	

@@ -29,14 +29,14 @@ func main() {
 	}
 }
 
-func pipeline(params <-chan int, doneChan chan bool) {
+func pipeline(params <-chan int, doneChan chan<- bool) {
 	go func() {
 		for _ = range step3(step2(step1(params))) {
 			//fmt.Println(result)
 		}
 
 		doneChan <- true // mark as done, so it could trigger `select case done`
-		close(doneChan)  // close channel, all process has been completed
+		close(doneChan)  // close done channel only after it's receive value true
 	}()
 }
 

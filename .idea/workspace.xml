@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dde1d6ca-6e40-4710-9393-a71bfd1f1df0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallel.go" beforeDir="false" afterPath="$PROJECT_DIR$/parallel.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kcnSNlAtFyzLJaJgdzLlk9YV5l" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build fanout.go">
+    <configuration name="go build fanout2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="simple-go-routine" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/fanout2.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build fanout.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="simple-go-routine" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/fanout.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build fanout_with_loop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="simple-go-routine" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/fanout_with_loop.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build parallel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="simple-go-routine" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/parallel.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build pipeline.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="simple-go-routine" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/pipeline.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build fanout.go" />
+        <item itemvalue="Go Build.go build pipeline.go" />
+        <item itemvalue="Go Build.go build parallel.go" />
+        <item itemvalue="Go Build.go build fanout_with_loop.go" />
+        <item itemvalue="Go Build.go build fanout2.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="782" y="308" width="424" height="496" key="FileChooserDialogImpl" timestamp="1606008859413">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="782" y="308" width="424" height="496" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1606008859413" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1606062182033">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606062182033" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1606062182033">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606062182033" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1606062182032">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606062182032" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1606062182033">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606062182033" />
+    <state width="1354" height="317" key="GridCell.Tab.1.bottom" timestamp="1606018312375">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1354" height="317" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606018312375" />
+    <state width="1354" height="317" key="GridCell.Tab.1.center" timestamp="1606018312374">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1354" height="317" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606018312374" />
+    <state width="1354" height="317" key="GridCell.Tab.1.left" timestamp="1606018312374">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1354" height="317" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606018312374" />
+    <state width="1354" height="317" key="GridCell.Tab.1.right" timestamp="1606018312375">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1354" height="317" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606018312375" />
+    <state x="488" y="181" width="1016" height="742" key="SettingsEditor" timestamp="1606008868162">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="488" y="181" width="1016" height="742" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1606008868162" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1606061478252">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/72.27.1848.1053@72.27.1848.1053" timestamp="1606061478252" />
+    <state x="659" y="267" width="672" height="678" key="search.everywhere.popup" timestamp="1606061438746">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="267" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1606061438746" />
+  </component>
+</project>
